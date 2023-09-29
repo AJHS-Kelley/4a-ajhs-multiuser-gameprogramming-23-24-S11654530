@@ -66,9 +66,37 @@ static void main(string[] args)
 	   
 	   //START EACH ROUND 
 	   for (int i = 0; i < numGuesses ; i++) {
-          // Code to guess number goes here
+          // Code to guess number goes here 
 
 .
 }
 }
 
+       //START THE MATCH 
+	   While (playScore != 3 && cpuScore != 3) {
+		   //Any code you want to run BEFORE each round goes here.
+		   // GENERATE SECRET NUMBER 
+		   Random rndNum = new Random();
+		   secretNumber = rndNum.next (rangeMin, rangeMax);
+		   Console.WriteLine("Player Score: " +playerScore + "\n");
+		   Console.Writeline("CPU Score:" +cpuscore + "\n")"
+		   //START EACH ROUND 
+		   for (int = 0; i < numGUESSES ; i++){
+			   // Code to guess number goes her,
+			   Console.WriteLine("You have used " + numAttempts + " this round.\n")
+		   Console.Writeline("You must guess between " + rangeMin+ "and" + rangeMax + ",\n");
+		   playerGuess = Sytem.Convert.ToInt32(Console .Readline ());
+		   if (playerGuess == sercretNumber) {
+			   // Print a success messages !
+			   PlayerScore++;
+			   break;
+		   )else{
+			 If (playerGuess > SecretNumber){
+				 Console.Writeline (" Your guess is too high!\ n");
+				 (else{
+				Console.WriteLine("Your guess id too low!\n");
+				)
+			)
+			numAttempts++;
+		)
+		if (playerGuess !=
