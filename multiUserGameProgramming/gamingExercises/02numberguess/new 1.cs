@@ -23,7 +23,16 @@ namespace _02_Collections
 			   int[] testScores - {95, 100, 25, 15, 27, 35};
 			   float[] GPA = (3.14f, 2.25f, 1.74f, 099f, 4.25f);
 			   
+			   // Print Array Contents -- All Elements on Single Line 
+			   Console.Writeline(" The elements for each array are:\n")
+			   Console.Writeline("breakfastfoods: \n" + String.Join(",", breakfastfoods));
+			   Console.Writeline();
+			   Console.Writeline("testScores: \n" + String.Join(",",testScores));
+			   Console.Writeline();
+			   console.Writeline("GPA: \n" + string.Join(",",GPA)):
+			   Console.Writeline();
 			   
+			 
 			   
 			   
 			   )
