@@ -32,7 +32,9 @@ namespace _02_Collections
 			   console.Writeline("GPA: \n" + string.Join(",",GPA)):
 			   Console.Writeline();
 			   
-			 
+			   /* Print Array Contents -- Each Element on Separate Line
+			   Console.Writeline("The elements for each array are:\n");
+			   Console.Writeline("breakfastfoods: \n" + String.join 
 			   
 			   
 			   )
