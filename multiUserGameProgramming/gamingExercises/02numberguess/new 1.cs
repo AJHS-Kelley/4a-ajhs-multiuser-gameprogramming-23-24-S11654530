@@ -34,8 +34,25 @@ namespace _02_Collections
 			   
 			   /* Print Array Contents -- Each Element on Separate Line
 			   Console.Writeline("The elements for each array are:\n");
-			   Console.Writeline("breakfastfoods: \n" + String.join 
+			   Console.Writeline("breakfastfoods: \n" + String.join("\n", breakfastfoods));
+			   Console.Writeline();
+			   Console.Writeline("testScores: \n + String.Join("n",testScores));
+			   Console.Writeline();
+			   Console.writeline("GPA: \n + String,Join("\n, GPA)); 
+			   Console.Writeline();
+			   */
 			   
+			   // Determining Array ELEMENTS
+			   Console.Writeline("The length of each array is:\n");
+			   Console.Writeline(breakfastFoods: " + breakfastFoods,Length);
+			   Console.Writeline("testScores; " + testScores.Length);
+			   Console.Writeline("GPA": " + GPA.Length);
+			   
+			   // Accessing Array Elements -- use the index!
+			   Console.Writeline("The first element in each array is:\n");
+			   Console.Writeline("breakfastfood: " + breakfastfoods{0});
+			   Console.Writeline("testScores: " + testScores[0]);
+			   Console,Writeline("GPA: " +
 			   
 			   )
 	)		   
